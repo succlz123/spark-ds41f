@@ -1,0 +1,50 @@
+{
+  "extends": {
+    "config": "config/cluster.json",
+    "shape": "tp4-ring"
+  },
+  "notes": "The service listens on 8888 because the site's client and gateway point there. A chat request keeps its newest six images: image_window.py and image_window.pth are mounted into the image's site-packages, so older images are replaced by a short text marker before vLLM renders the prompt, and --limit-mm-per-prompt is raised from 4 to 6 so the served recipe accepts the same six the client sends. The collective socket interfaces are the site's management interface, the rendezvous address is this head node, the build sources come from the site's GitHub mirror, and the JIT cache stays inside the checkout. The prefill budget, the KV pool, and every other serving argument come from the recipe unchanged. The fan-floor control unit binds NVIDIA's board only, so fan_control is off on these ASUS and xFusion nodes.",
+  "serve_options": {
+    "--port": "8888",
+    "--limit-mm-per-prompt": "{\"image\":6}"
+  },
+  "set": {
+    "container": {
+      "mounts": [
+        [
+          "{checkout}/cache",
+          "/cache",
+          "rw"
+        ],
+        [
+          "{home}/image-window/image_window.py",
+          "/usr/local/lib/python3.12/dist-packages/image_window.py",
+          "ro"
+        ],
+        [
+          "{home}/image-window/image_window.pth",
+          "/usr/local/lib/python3.12/dist-packages/image_window.pth",
+          "ro"
+        ]
+      ]
+    },
+    "host": {
+      "home": "/home/succlz123",
+      "fan_control": false
+    },
+    "distributed": {
+      "master_addr": "192.168.8.22"
+    },
+    "environment": {
+      "GLOO_SOCKET_IFNAME": "wlP9s9",
+      "NCCL_SOCKET_IFNAME": "wlP9s9",
+      "TP_SOCKET_IFNAME": "wlP9s9"
+    },
+    "deployment": {
+      "repository": "https://gh-proxy.com/https://github.com/succlz123/spark-ds41f.git",
+      "branch": "main",
+      "ready_url": "http://127.0.0.1:8888/v1/models"
+    }
+  },
+  "unset": ["glp"]
+}
