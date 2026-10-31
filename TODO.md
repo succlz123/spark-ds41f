@@ -316,6 +316,14 @@ and eight streams for every decode change, and sixteen on TP4.
 - **Shared packages move forward only.** When components disagree on a shared
   runtime package, patch the lagging pin forward. The image build checks every
   CuTe DSL consumer's requirement; do the same for any new shared package.
+- **On macOS the control machine needs `TMPDIR=/tmp`** for every `bin/spark`
+  and `scripts/lab.py` cluster command. SSH's connection socket lives under
+  `tempfile.gettempdir()` (`SSH_CONTROL_DIR` in `bin/spark`), and the default
+  per-user `/var/folders/.../T` path overflows the 104-byte Unix socket limit:
+  every node call dies in `kex_exchange_identification`, and the failure
+  surfaces misleadingly (`doctor`: `cannot check: CalledProcessError`; a
+  `window open`: an empty node checkout "differs"). `ssh` straight to a node
+  still works, which is what makes the symptom confusing.
 
 ## Memory and safety
 
