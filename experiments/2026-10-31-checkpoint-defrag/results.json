@@ -1,0 +1,42 @@
+{
+  "status": "complete; lever closed",
+  "time": "2026-10-31T00:20:00Z/2026-10-31T00:31:00Z",
+  "deployment_commit": "a5a29cb6bdf20a6b247bd2c3ae6ea8febce79dd6",
+  "baseline": "2026-10-30-spark-ds41f-1030",
+  "image": "spark-ds41f:1030",
+  "site_profile": "config/site-tp4-ring.json",
+  "scope": "48 checkpoint shards/node on four nodes; no runtime configuration changes; serving stopped",
+  "method": {
+    "checksums": "SHA256 via aligned O_DIRECT before and after each shard; cross-node hash agreement check after the run",
+    "defragmenter": "e4defrag -v on resolved individual checkpoint blobs",
+    "metadata": "e4defrag -c",
+    "constraints": {
+      "MemoryMax": "8G",
+      "MemorySwapMax": 0,
+      "Nice": 19,
+      "IOSchedulingClass": "idle",
+      "IOWeight": 1,
+      "CPUQuota": "100%",
+      "MemAvailable_abort_gib": 4
+    }
+  },
+  "serving": "stopped for the window (cluster stop --apply); restored by window close",
+  "nodes": {
+    "dgx1": {"processed": 45, "already_ideal": 3, "improved": 2, "unchanged": 43, "verified": 45},
+    "dgx2": {"processed": 48, "already_ideal": 0, "improved": 0, "unchanged": 48, "verified": 48},
+    "dgx3": {"processed": 45, "already_ideal": 3, "improved": 5, "unchanged": 40, "verified": 45},
+    "dgx4": {"processed": 39, "already_ideal": 9, "improved": 1, "unchanged": 38, "verified": 39}
+  },
+  "fleet": {
+    "shards_verified_intact": 177,
+    "cross_node_hash_agreement": true,
+    "total_extents_before": 23169,
+    "total_extents_after": 22140,
+    "nonideal_shards_before": 177,
+    "nonideal_shards_after": 176,
+    "min_mem_available_gib": 117.4,
+    "wall_seconds": 600
+  },
+  "failures": [],
+  "conclusion": "8 GiB limit fixed the 10-02 OOM; full pass completed with data intact, but e4defrag only corrected shards with a nearby large free run: the heavily fragmented 7 GiB and 101 GiB shards did not move. Fleet extents -4.4%; no measurable boot benefit expected. Lever closed; a copy-rewrite would be a different operation."
+}
