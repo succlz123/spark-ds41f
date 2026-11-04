@@ -1,0 +1,21 @@
+{
+  "name": "model-00026-of-00048.safetensors",
+  "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00026-of-00048.safetensors",
+  "bytes": 7389761368,
+  "inode": 74845595,
+  "mtime_ns": 1792254716287167516,
+  "before": [
+    201,
+    4
+  ],
+  "sha256_before": "2d6d7261937d2a98c7398a55ed48dbf129d9b4f188aa9148e46ea9f720255115",
+  "hash_before_seconds": 4.40438845200697,
+  "defrag_exit_code": 0,
+  "sha256_after": "2d6d7261937d2a98c7398a55ed48dbf129d9b4f188aa9148e46ea9f720255115",
+  "after": [
+    201,
+    4
+  ],
+  "elapsed_seconds": 9.130404655006714,
+  "verified": true
+}

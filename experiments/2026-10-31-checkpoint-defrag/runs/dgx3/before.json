@@ -1,0 +1,530 @@
+[
+  {
+    "name": "model-00001-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00001-of-00048.safetensors",
+    "bytes": 970533624,
+    "inode": 74845621,
+    "mtime_ns": 1792254898652021829,
+    "before": [
+      12,
+      1
+    ]
+  },
+  {
+    "name": "model-00002-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00002-of-00048.safetensors",
+    "bytes": 1323858272,
+    "inode": 74845619,
+    "mtime_ns": 1792254889082978004,
+    "before": [
+      4,
+      1
+    ]
+  },
+  {
+    "name": "model-00003-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00003-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845609,
+    "mtime_ns": 1792254820057658814,
+    "before": [
+      46,
+      4
+    ]
+  },
+  {
+    "name": "model-00004-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00004-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845608,
+    "mtime_ns": 1792254820156659276,
+    "before": [
+      6,
+      4
+    ]
+  },
+  {
+    "name": "model-00005-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00005-of-00048.safetensors",
+    "bytes": 7405953784,
+    "inode": 74845577,
+    "mtime_ns": 1792254607631635396,
+    "before": [
+      70,
+      4
+    ]
+  },
+  {
+    "name": "model-00006-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00006-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845611,
+    "mtime_ns": 1792254846104779919,
+    "before": [
+      11,
+      4
+    ]
+  },
+  {
+    "name": "model-00007-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00007-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845610,
+    "mtime_ns": 1792254846486781689,
+    "before": [
+      96,
+      4
+    ]
+  },
+  {
+    "name": "model-00008-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00008-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845612,
+    "mtime_ns": 1792254859295840940,
+    "before": [
+      8,
+      4
+    ]
+  },
+  {
+    "name": "model-00009-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00009-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845613,
+    "mtime_ns": 1792254859087839980,
+    "before": [
+      4,
+      4
+    ]
+  },
+  {
+    "name": "model-00010-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00010-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845615,
+    "mtime_ns": 1792254878654930131,
+    "before": [
+      498,
+      4
+    ]
+  },
+  {
+    "name": "model-00011-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00011-of-00048.safetensors",
+    "bytes": 7405953784,
+    "inode": 74845578,
+    "mtime_ns": 1792254617562684887,
+    "before": [
+      29,
+      4
+    ]
+  },
+  {
+    "name": "model-00012-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00012-of-00048.safetensors",
+    "bytes": 7389759032,
+    "inode": 74845614,
+    "mtime_ns": 1792254878969931579,
+    "before": [
+      80,
+      4
+    ]
+  },
+  {
+    "name": "model-00013-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00013-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845585,
+    "mtime_ns": 1792254654335866586,
+    "before": [
+      269,
+      4
+    ]
+  },
+  {
+    "name": "model-00014-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00014-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845584,
+    "mtime_ns": 1792254654128865570,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00015-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00015-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845587,
+    "mtime_ns": 1792254666726927279,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00016-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00016-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845586,
+    "mtime_ns": 1792254666098924210,
+    "before": [
+      4,
+      4
+    ]
+  },
+  {
+    "name": "model-00017-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00017-of-00048.safetensors",
+    "bytes": 7405956128,
+    "inode": 74845576,
+    "mtime_ns": 1792254606293628714,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00018-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00018-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845589,
+    "mtime_ns": 1792254679235988289,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00019-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00019-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845588,
+    "mtime_ns": 1792254678709985729,
+    "before": [
+      4,
+      4
+    ]
+  },
+  {
+    "name": "model-00020-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00020-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845591,
+    "mtime_ns": 1792254691250046643,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00021-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00021-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845590,
+    "mtime_ns": 1792254691295046861,
+    "before": [
+      5,
+      4
+    ]
+  },
+  {
+    "name": "model-00022-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00022-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845592,
+    "mtime_ns": 1792254703233104616,
+    "before": [
+      7,
+      4
+    ]
+  },
+  {
+    "name": "model-00023-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00023-of-00048.safetensors",
+    "bytes": 7400713088,
+    "inode": 74845579,
+    "mtime_ns": 1792254618643690264,
+    "before": [
+      16,
+      4
+    ]
+  },
+  {
+    "name": "model-00024-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00024-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845593,
+    "mtime_ns": 1792254703922107943,
+    "before": [
+      179,
+      4
+    ]
+  },
+  {
+    "name": "model-00025-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00025-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845594,
+    "mtime_ns": 1792254715550163972,
+    "before": [
+      22,
+      4
+    ]
+  },
+  {
+    "name": "model-00026-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00026-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845595,
+    "mtime_ns": 1792254716287167516,
+    "before": [
+      201,
+      4
+    ]
+  },
+  {
+    "name": "model-00027-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00027-of-00048.safetensors",
+    "bytes": 7395337384,
+    "inode": 74845581,
+    "mtime_ns": 1792254630447748828,
+    "before": [
+      161,
+      4
+    ]
+  },
+  {
+    "name": "model-00028-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00028-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845596,
+    "mtime_ns": 1792254727577221707,
+    "before": [
+      31,
+      4
+    ]
+  },
+  {
+    "name": "model-00029-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00029-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845597,
+    "mtime_ns": 1792254727994223705,
+    "before": [
+      336,
+      4
+    ]
+  },
+  {
+    "name": "model-00030-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00030-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845598,
+    "mtime_ns": 1792254739726279808,
+    "before": [
+      301,
+      4
+    ]
+  },
+  {
+    "name": "model-00031-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00031-of-00048.safetensors",
+    "bytes": 7395337384,
+    "inode": 74845580,
+    "mtime_ns": 1792254629062741970,
+    "before": [
+      161,
+      4
+    ]
+  },
+  {
+    "name": "model-00032-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00032-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845599,
+    "mtime_ns": 1792254740269282400,
+    "before": [
+      337,
+      4
+    ]
+  },
+  {
+    "name": "model-00033-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00033-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845600,
+    "mtime_ns": 1792254752504340686,
+    "before": [
+      7,
+      4
+    ]
+  },
+  {
+    "name": "model-00034-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00034-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845601,
+    "mtime_ns": 1792254752468340515,
+    "before": [
+      518,
+      4
+    ]
+  },
+  {
+    "name": "model-00035-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00035-of-00048.safetensors",
+    "bytes": 7395337384,
+    "inode": 74845583,
+    "mtime_ns": 1792254641449803188,
+    "before": [
+      430,
+      4
+    ]
+  },
+  {
+    "name": "model-00036-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00036-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845603,
+    "mtime_ns": 1792254765397401877,
+    "before": [
+      136,
+      4
+    ]
+  },
+  {
+    "name": "model-00037-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00037-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845602,
+    "mtime_ns": 1792254764935399688,
+    "before": [
+      532,
+      4
+    ]
+  },
+  {
+    "name": "model-00038-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00038-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845605,
+    "mtime_ns": 1792254785363496186,
+    "before": [
+      503,
+      4
+    ]
+  },
+  {
+    "name": "model-00039-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00039-of-00048.safetensors",
+    "bytes": 7395337384,
+    "inode": 74845582,
+    "mtime_ns": 1792254641670804278,
+    "before": [
+      420,
+      4
+    ]
+  },
+  {
+    "name": "model-00040-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00040-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845604,
+    "mtime_ns": 1792254785212495475,
+    "before": [
+      504,
+      4
+    ]
+  },
+  {
+    "name": "model-00041-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00041-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845607,
+    "mtime_ns": 1792254800464567161,
+    "before": [
+      405,
+      4
+    ]
+  },
+  {
+    "name": "model-00042-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00042-of-00048.safetensors",
+    "bytes": 7389761368,
+    "inode": 74845606,
+    "mtime_ns": 1792254799946564731,
+    "before": [
+      226,
+      4
+    ]
+  },
+  {
+    "name": "model-00043-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00043-of-00048.safetensors",
+    "bytes": 1323837624,
+    "inode": 74845620,
+    "mtime_ns": 1792254896887013753,
+    "before": [
+      57,
+      1
+    ]
+  },
+  {
+    "name": "model-00044-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00044-of-00048.safetensors",
+    "bytes": 2652728736,
+    "inode": 74845616,
+    "mtime_ns": 1792254886007963900,
+    "before": [
+      129,
+      2
+    ]
+  },
+  {
+    "name": "model-00045-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00045-of-00048.safetensors",
+    "bytes": 2573998176,
+    "inode": 74845618,
+    "mtime_ns": 1792254890636985128,
+    "before": [
+      71,
+      2
+    ]
+  },
+  {
+    "name": "model-00046-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00046-of-00048.safetensors",
+    "bytes": 2706402896,
+    "inode": 74845617,
+    "mtime_ns": 1792254886196964767,
+    "before": [
+      129,
+      2
+    ]
+  },
+  {
+    "name": "model-00047-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00047-of-00048.safetensors",
+    "bytes": 101535150936,
+    "inode": 74845575,
+    "mtime_ns": 1792254595449574432,
+    "before": [
+      410,
+      48
+    ]
+  },
+  {
+    "name": "model-00048-of-00048.safetensors",
+    "path": "/home/succlz123/.cache/huggingface/hub/models--deepseek-ai--DeepSeek-V4.1-Flash-1017/snapshots/1bae0e1088993b9b82de08f59de5be5a34e42170/model-00048-of-00048.safetensors",
+    "bytes": 101537926640,
+    "inode": 74845574,
+    "mtime_ns": 1792254594521569777,
+    "before": [
+      51,
+      48
+    ]
+  }
+]
