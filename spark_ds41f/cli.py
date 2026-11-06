@@ -50,6 +50,16 @@ def int_list(value: str) -> list[int]:
         raise argparse.ArgumentTypeError(f"expected comma-separated integers: {value!r}") from error
 
 
+def positive_compile_jobs(value: str) -> int:
+    try:
+        result = int(value)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError("expected a positive integer") from error
+    if result < 1:
+        raise argparse.ArgumentTypeError("expected a positive integer")
+    return result
+
+
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(prog="spark")
     root.add_argument(
@@ -100,7 +110,8 @@ def parser() -> argparse.ArgumentParser:
     )
     cluster_commands = cluster.add_subparsers(dest="cluster_command", required=True)
     cluster_sync = cluster_commands.add_parser(
-        "sync", help="detach every clean node checkout at one published commit"
+        "sync", help="detach every clean node checkout at one published commit, then copy the "
+        "profile's image from this host to every node whose copy differs"
     )
     cluster_sync.add_argument("--revision", help="published commit or ref, resolved after a fetch "
                                                     "(origin/main is the latest main); defaults to local HEAD")
@@ -180,6 +191,10 @@ def parser() -> argparse.ArgumentParser:
         "--tag", help="image tag (default: container.image from the cluster config)"
     )
     build_image.add_argument(
+        "--max-compile-jobs", type=positive_compile_jobs, metavar="N",
+        help="cap vLLM, TileLang and NCCL compile jobs without relaxing host memory or CPU sizing",
+    )
+    build_image.add_argument(
         "--apply", action="store_true", help="build under the memory guard, then run the GPU smoke"
     )
     build_image.set_defaults(func=command_build_image)
@@ -191,7 +206,8 @@ def parser() -> argparse.ArgumentParser:
     )
     build_smoke.set_defaults(func=command_build_smoke)
     build_distribute = build_commands.add_parser(
-        "distribute", help="copy the built image to every node in the configured node map"
+        "distribute", help="copy the built image to every node in the configured node map "
+        "(cluster sync does this for the profile's image)"
     )
     build_distribute.add_argument(
         "--tag", help="image tag (default: container.image from the cluster config)"
