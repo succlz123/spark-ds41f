@@ -97,6 +97,8 @@ RUN --mount=type=bind,from=torch-wheels,target=/tmp/torch-wheels \
     python3 -c 'import torch, torchaudio, torchvision; assert torch.__version__ == "2.16.0.dev20261113+cu135", torch.__version__'
 
 FROM ${CUDA_STAGE} AS vllm-native-builder
+ENV PIP_INDEX_URL=https://mirrors.cloud.tencent.com/pypi/simple \
+PIP_TRUSTED_HOST=mirrors.cloud.tencent.com
 
 USER root
 
@@ -181,6 +183,8 @@ RUN set -eux; \
 # TileKernels takes its version from setuptools-scm, which an export without
 # Git metadata cannot supply.
 FROM ${CUDA_STAGE} AS tilelang-builder
+ENV PIP_INDEX_URL=https://mirrors.cloud.tencent.com/pypi/simple \
+PIP_TRUSTED_HOST=mirrors.cloud.tencent.com
 
 USER root
 
@@ -207,6 +211,8 @@ RUN set -eux; \
 # collectives vendored from B12X with spark's patches 0001-0011, used by the
 # TileLang family instead of b12x.comm.roce. Pure Python plus a C proxy.
 FROM ${CUDA_STAGE} AS sparknet-builder
+ENV PIP_INDEX_URL=https://mirrors.cloud.tencent.com/pypi/simple \
+PIP_TRUSTED_HOST=mirrors.cloud.tencent.com
 
 COPY --from=sparknet-source . /workspace/sparknet/
 RUN python3 -m pip wheel --no-cache-dir --no-deps --wheel-dir /opt/sparknet /workspace/sparknet && \
