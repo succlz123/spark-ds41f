@@ -1,0 +1,38 @@
+{
+  "extends": {
+    "config": "config/cluster.json",
+    "shape": "tp3-triangle"
+  },
+  "notes": "Triangle TP3 on the promoted 1126 recipe: nvidia01 rank 0, fx103 rank 1, dell01 rank 2 over three direct CX7 links (two PCIe paths each). The site keeps its own serving options, port 8888 for the client and gateway, the newest-six image window mounted into site-packages, the site's management interface for collectives, this head node as rendezvous, the site's GitHub mirror as deployment repository and the JIT cache inside the checkout. The recipe's GLP block, its GLP-27 vector and the alpha 2.0 it is served at come from the 1126 recipe unchanged; every other serving argument, the prefill budget, the KV pool and the generation defaults do too. fan_control is off on these non-NVIDIA GB10 boards.",
+  "serve_options": {
+    "--port": "8888",
+    "--limit-mm-per-prompt": "{\"image\":6}"
+  },
+  "set": {
+    "nodes_config": "config/nodes.json",
+    "container": {
+      "mounts": [
+        ["{checkout}/cache", "/cache", "rw"],
+        ["{home}/image-window/image_window.py", "/usr/local/lib/python3.12/dist-packages/image_window.py", "ro"],
+        ["{home}/image-window/image_window.pth", "/usr/local/lib/python3.12/dist-packages/image_window.pth", "ro"]
+      ]
+    },
+    "host": {
+      "home": "/home/succlz123",
+      "fan_control": false
+    },
+    "distributed": {
+      "master_addr": "192.168.8.22"
+    },
+    "environment": {
+      "GLOO_SOCKET_IFNAME": "wlP9s9",
+      "TP_SOCKET_IFNAME": "wlP9s9",
+      "NCCL_SOCKET_IFNAME": "wlP9s9"
+    },
+    "deployment": {
+      "repository": "https://ghfast.top/https://github.com/succlz123/spark-ds41f.git",
+      "branch": "site-1126",
+      "ready_url": "http://127.0.0.1:8888/v1/models"
+    }
+  }
+}
