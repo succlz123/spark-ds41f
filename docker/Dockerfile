@@ -39,6 +39,12 @@ FROM ${BASE_IMAGE} AS base
 # /usr/local/cuda-13.5; nvcc reads TOP from its nvcc.profile because it does not
 # resolve the nvidia/cu13/bin link it may be called through.
 FROM ${BASE_IMAGE} AS cuda-13-5
+# Site: resolve build-time Python dependencies through a domestic mirror. The
+# promoted build reaches files.pythonhosted.org, which is unreliable from this
+# network (the 27 MB z3-solver wheel died after six attempts at 20-80 kB/s).
+# Only the index used for build dependencies changes; image content does not.
+ARG PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
+ENV PIP_INDEX_URL=${PIP_INDEX_URL}
 
 USER root
 
