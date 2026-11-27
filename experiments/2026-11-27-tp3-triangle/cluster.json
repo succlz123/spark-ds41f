@@ -12,9 +12,21 @@
     "nodes_config": "config/nodes.json",
     "container": {
       "mounts": [
-        ["{checkout}/cache", "/cache", "rw"],
-        ["{home}/image-window/image_window.py", "/usr/local/lib/python3.12/dist-packages/image_window.py", "ro"],
-        ["{home}/image-window/image_window.pth", "/usr/local/lib/python3.12/dist-packages/image_window.pth", "ro"]
+        [
+          "{checkout}/cache",
+          "/cache",
+          "rw"
+        ],
+        [
+          "{home}/image-window/image_window.py",
+          "/usr/local/lib/python3.12/dist-packages/image_window.py",
+          "ro"
+        ],
+        [
+          "{home}/image-window/image_window.pth",
+          "/usr/local/lib/python3.12/dist-packages/image_window.pth",
+          "ro"
+        ]
       ]
     },
     "host": {
@@ -33,6 +45,14 @@
       "repository": "https://ghfast.top/https://github.com/succlz123/spark-ds41f.git",
       "branch": "site",
       "ready_url": "http://127.0.0.1:8888/v1/models"
+    },
+    "glp": {
+      "served_model_name": "deepseek-v4.1-flash-weightless",
+      "repo": "msuiche/DeepSeek-V4.1-Flash-1017-abliterated-cyber-GLP-27-L11-37-a3.5",
+      "revision": "4d570926e9dd4fa7247d126072c34e249c89abd7",
+      "file": "glp.deepseek-v41-flash-1017-GLP-27-L11-37-a3.5.gguf",
+      "sha256": "24e97d41a9a4f77adad78ff4cb888cb4e339eb62151dbf37a7fcd3ea30eb442e",
+      "notes": "msuiche's published GLP-27 vector for v41-flash-1017 (27 layers L11-37, alpha_default 3.5, gated repository). Served at the file's alpha; requests to the steered name only."
     }
   }
 }
